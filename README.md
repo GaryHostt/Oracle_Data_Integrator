@@ -70,7 +70,10 @@ https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB
 3. Salesforce connects via JDBC as well
 
   This is the syntax for salesforce's JDBC connection under physical topology:
-```     jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=password12345;SecurityToken=6gaFzpiuetpyubD6Yhadk;ljadDTlNKpX
+```     
+
+jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=password12345;SecurityToken=6gaFzpiuetpyubD6Yhadk;ljadDTlNKpX
+
 ```
 [More salesforce information](https://blogs.perficient.com/2016/09/14/odi-integration-with-salesforce/)
 
