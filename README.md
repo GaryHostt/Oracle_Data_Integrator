@@ -35,6 +35,7 @@ Note: Again, this is not an option when solely using ODI in the cloud - you need
 To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Server.
 
 Download & install the JDBC driver for SQL Server:
+
 https://www.microsoft.com/en-us/download/details.aspx?id=58505
 https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
 https://blogs.msdn.microsoft.com/brian_swan/2011/03/02/getting-started-with-the-sql-server-jdbc-driver/
@@ -43,6 +44,7 @@ https://blogs.msdn.microsoft.com/brian_swan/2011/03/02/getting-started-with-the-
 
 
 Adding JDBC & JRE to the path where SQL Server runs:
+
 https://docs.microsoft.com/en-us/sql/connect/jdbc/using-the-jdbc-driver?view=sql-server-ver15
 https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 
@@ -68,6 +70,7 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 [More salesforce information](https://blogs.perficient.com/2016/09/14/odi-integration-with-salesforce/)
 
 More information on the agent:
+
 https://blogs.oracle.com/dataintegration/learn-about-oracle-data-integrator-odi-agents
 https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent
 https://www.ateam-oracle.com/odi-agents-standalone-jee-and-colocated
