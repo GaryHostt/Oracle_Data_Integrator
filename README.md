@@ -3,8 +3,6 @@ This guide will show you the resources to learn the basics of using ODI.
 
 ![](pic.jpg) 
 
-# ODI Guide
-
 ## Recommended beginner tutorials
 [How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf)
 
