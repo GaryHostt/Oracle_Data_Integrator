@@ -50,7 +50,7 @@ Adding JDBC & JRE to the path where SQL Server runs:
 
 [Using the JDBC Driver](https://docs.microsoft.com/en-us/sql/connect/jdbc/using-the-jdbc-driver?view=sql-server-ver15)
 
-[Setting the JAVA_HOME variable in windows]https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
+[Setting the JAVA_HOME variable in windows](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html)
 
 [SQL Server knowledge modules](https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB)
 
@@ -69,23 +69,32 @@ https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB
 
 3. Salesforce connects via JDBC as well
 
-This is the syntax for salesforce's JDBC connection under physical topology:
-jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=password12345;SecurityToken=6gaFzpiuetpyubD6Yhadk;ljadDTlNKpX
-
+  This is the syntax for salesforce's JDBC connection under physical topology:
+```     jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=password12345;SecurityToken=6gaFzpiuetpyubD6Yhadk;ljadDTlNKpX
+```
 [More salesforce information](https://blogs.perficient.com/2016/09/14/odi-integration-with-salesforce/)
 
-More information on the agent:
+4. More information on the agent
 
-https://blogs.oracle.com/dataintegration/learn-about-oracle-data-integrator-odi-agents
-https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent
-https://www.ateam-oracle.com/odi-agents-standalone-jee-and-colocated
-https://docs.oracle.com/en/middleware/fusion-middleware/tutorial-creating-standalone-agent/#CreatingaLogicalAgent
-https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_11g/setup_odi_agent/setup_odi_agent.htm
-https://gerardnico.com/dit/odi/agent#colocated
-https://dzone.com/articles/odi-11g-odi-12c-whats-an-agent
-https://stackoverflow.com/questions/51043048/what-is-the-significance-of-localno-agent-standalone-java-agent-in-odi
-https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent
-https://www.kpipartners.com/blog/bid/157960/The-Oracle-Data-Integrator-12C-Standalone-Collocated-Agent
+[Learn about ODI agents](https://blogs.oracle.com/dataintegration/learn-about-oracle-data-integrator-odi-agents)
+
+[Where to install the standalone agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
+
+[Differences between the agents](https://www.ateam-oracle.com/odi-agents-standalone-jee-and-colocated)
+
+[Creating a standalone agent](https://docs.oracle.com/en/middleware/fusion-middleware/tutorial-creating-standalone-agent/#CreatingaLogicalAgent)
+
+[Setting up the ODI agent](https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_11g/setup_odi_agent/setup_odi_agent.htm)
+
+[Colocated agent](https://gerardnico.com/dit/odi/agent#colocated)
+
+[What is the ODI agent?](https://dzone.com/articles/odi-11g-odi-12c-whats-an-agent)
+
+[Differences between agent types](https://stackoverflow.com/questions/51043048/what-is-the-significance-of-localno-agent-standalone-java-agent-in-odi)
+
+[Local(no agent](https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent)
+
+[The Standalone-Collocated Agent](https://www.kpipartners.com/blog/bid/157960/The-Oracle-Data-Integrator-12C-Standalone-Collocated-Agent)
 
 
 
