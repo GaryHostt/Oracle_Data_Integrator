@@ -36,7 +36,7 @@ To read a file from a remote server, you must install an agent on that server so
 
 To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Server.
 
-Download & install the JDBC driver for SQL Server:
+1. Download & install the JDBC driver for SQL Server:
 
 [Download](https://www.microsoft.com/en-us/download/details.aspx?id=58505)
 
@@ -46,7 +46,7 @@ Download & install the JDBC driver for SQL Server:
 
 [Download & install the Java Runtime Environment for SQL Server connection](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-Adding JDBC & JRE to the path where SQL Server runs:
+2. Adding JDBC & JRE to the path where SQL Server runs:
 
 [Using the JDBC Driver](https://docs.microsoft.com/en-us/sql/connect/jdbc/using-the-jdbc-driver?view=sql-server-ver15)
 
@@ -56,7 +56,7 @@ Adding JDBC & JRE to the path where SQL Server runs:
 
 [General JDBC driver notes](https://docs.microsoft.com/en-us/sql/connect/jdbc/overview-of-the-jdbc-driver?view=sql-server-ver15)
 
-Connecting to SQL Server on ODI (extra documentation):
+3. Connecting to SQL Server on ODI (extra documentation):
 
 [Knowledge modules for SQL Server on ODI](https://docs.oracle.com/middleware/1212/odi/ODIKM/ms_sqlserver.htm#ODIKM957)
 
