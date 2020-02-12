@@ -1,5 +1,5 @@
 # Oracle_Data_Integrator
-This guide will show you the basics of using ODI. 
+This guide will show you the resources to learn the basics of using ODI. 
 
 ![](pic.jpg) 
 
@@ -57,10 +57,14 @@ Adding JDBC & JRE to the path where SQL Server runs:
 [General JDBC driver notes](https://docs.microsoft.com/en-us/sql/connect/jdbc/overview-of-the-jdbc-driver?view=sql-server-ver15)
 
 Connecting to SQL Server on ODI (extra documentation):
-https://docs.oracle.com/middleware/1212/odi/ODIKM/ms_sqlserver.htm#ODIKM957
-https://docs.microsoft.com/en-us/sql/connect/jdbc/connection-url-sample?view=sql-server-ver15
-https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15
-https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB
+
+[Knowledge modules for SQL Server on ODI](https://docs.oracle.com/middleware/1212/odi/ODIKM/ms_sqlserver.htm#ODIKM957)
+
+[Sample JDBC url](https://docs.microsoft.com/en-us/sql/connect/jdbc/connection-url-sample?view=sql-server-ver15)
+
+[Connecting with the JDBC Driver](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15)
+
+[Connecting to SQL Server](https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB)
 ……….
 ### Other use cases
 1. [You can execute SSIS packages from SQL Server stored procedures](https://www.mssqltips.com/sqlservertip/2992/how-to-execute-an-integration-services-ssis-package-from-a-sql-server-stored-procedure/)
