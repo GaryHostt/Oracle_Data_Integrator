@@ -24,11 +24,11 @@ This guide will show you the basics of using ODI.
 To read a file from a remote server, you must install an agent on that server so it can access the files.
 [Install an agent on the server (details on how & why)](https://community.oracle.com/thread/3892184)
 
-Note: Using an agent is not allowed with ODI Marketplace - in place of the agent you can create a VPN connection, whitelist the IP address of the compute node ODI is running on, and/or have FastConnect.
+**Note:** Using an agent is not allowed with ODI Marketplace - in place of the agent you can create a VPN connection, whitelist the IP address of the compute node ODI is running on, and/or have FastConnect.
 
 [Where to install agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
 
-Note: Again, this is not an option when solely using ODI in the cloud - you need an on-prem license as well. 
+**Note:** Again, this is not an option when solely using ODI in the cloud - you need an on-prem license as well. 
 
 [How to install agent](https://docs.oracle.com/en/middleware/data-integrator/12.2.1.3/tutorial-creating-standalone-agent/)
 
@@ -38,17 +38,19 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 
 Download & install the JDBC driver for SQL Server:
 
-https://www.microsoft.com/en-us/download/details.aspx?id=58505
-https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
-https://blogs.msdn.microsoft.com/brian_swan/2011/03/02/getting-started-with-the-sql-server-jdbc-driver/
+[Download](https://www.microsoft.com/en-us/download/details.aspx?id=58505)
+
+[JDBC Driver details](https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15)
+
+[Getting started with the JDBC Driver](https://blogs.msdn.microsoft.com/brian_swan/2011/03/02/getting-started-with-the-sql-server-jdbc-driver/)
 
 [Download & install the Java Runtime Environment for SQL Server connection](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-
 Adding JDBC & JRE to the path where SQL Server runs:
 
-https://docs.microsoft.com/en-us/sql/connect/jdbc/using-the-jdbc-driver?view=sql-server-ver15
-https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
+[Using the JDBC Driver](https://docs.microsoft.com/en-us/sql/connect/jdbc/using-the-jdbc-driver?view=sql-server-ver15)
+
+[Setting the JAVA_HOME variable in windows]https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 
 [SQL Server knowledge modules](https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB)
 
@@ -60,13 +62,14 @@ https://docs.microsoft.com/en-us/sql/connect/jdbc/connection-url-sample?view=sql
 https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15
 https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB
 ……….
-3.	Other use cases
-[You can execute SSIS packages from SQL Server stored procedures](https://www.mssqltips.com/sqlservertip/2992/how-to-execute-an-integration-services-ssis-package-from-a-sql-server-stored-procedure/)
+### Other use cases
+1. [You can execute SSIS packages from SQL Server stored procedures](https://www.mssqltips.com/sqlservertip/2992/how-to-execute-an-integration-services-ssis-package-from-a-sql-server-stored-procedure/)
 
-[More SSIS information](https://docs.microsoft.com/en-us/sql/integration-services/deploy-and-execute-ssis-packages-using-stored-procedures?view=sql-server-2014)
+2. [More SSIS information](https://docs.microsoft.com/en-us/sql/integration-services/deploy-and-execute-ssis-packages-using-stored-procedures?view=sql-server-2014)
 
-Salesforce connects via JDBC as well:
-ODI salesforce syntax under physical topology:
+3. Salesforce connects via JDBC as well
+
+This is the syntax for salesforce's JDBC connection under physical topology:
 jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=password12345;SecurityToken=6gaFzpiuetpyubD6Yhadk;ljadDTlNKpX
 
 [More salesforce information](https://blogs.perficient.com/2016/09/14/odi-integration-with-salesforce/)
