@@ -1,7 +1,9 @@
 # Oracle_Data_Integrator
 This guide will show you the resources to learn the basics of using ODI. 
 
-![](77.png) 
+<p align="center">
+  <img src="https://github.com/GaryHostt/Oracle_Data_Integrator/blob/master/77.png?raw=true" alt="ODI"/>
+</p>
 
 ## Recommended beginner tutorials
 [How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf)
