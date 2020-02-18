@@ -100,7 +100,7 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 
 [Differences between agent types](https://stackoverflow.com/questions/51043048/what-is-the-significance-of-localno-agent-standalone-java-agent-in-odi)
 
-[Local(no agent](https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent)
+[Local(no agent)](https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent)
 
 [The Standalone-Collocated Agent](https://www.kpipartners.com/blog/bid/157960/The-Oracle-Data-Integrator-12C-Standalone-Collocated-Agent)
 
