@@ -19,6 +19,12 @@ This guide will show you the resources to learn the basics of using ODI.
 
 [Basics/Overview of ODI on Youtube](https://www.youtube.com/watch?v=Mtz9mEQRBXA)
 
+[ODI Learning Tutorials](https://blogs.oracle.com/dataintegration/data-integration-platform-cloud-for-saas-applications)
+
+[Moving data to ADW](https://blogs.oracle.com/dataintegration/loading-data-into-oracle-autonomous-data-warehouse-cloud-with-oracle-data-integration)
+
+[Manipulating Data from Object Storage to ADW using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
+
 ## Use cases
 
 ### Reading files from remote servers
