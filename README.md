@@ -6,6 +6,8 @@
 
 This guide will show you the resources to learn the basics of using ODI. 
 
+Here is the main [ODI documentation](https://docs.oracle.com/middleware/12212/odi/index.html).
+
 ## Recommended beginner tutorials
 [How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf)
 
