@@ -93,7 +93,9 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 
 4. [Setting up scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/)
 
-5. More information on the agent
+5. [Using Fusion Apps BICC with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-business-intelligence-cloud-connector.html#GUID-57D29056-3FBF-41B8-9F2A-C38B1556983F)
+
+6. More information on the agent
 
 [Learn about ODI agents](https://blogs.oracle.com/dataintegration/learn-about-oracle-data-integrator-odi-agents)
 
