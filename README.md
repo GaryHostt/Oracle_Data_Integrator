@@ -88,9 +88,12 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=password12345;SecurityToken=6gaFzpiuetpyubD6Yhadk;ljadDTlNKpX
 
 ```
+
 [More salesforce information](https://blogs.perficient.com/2016/09/14/odi-integration-with-salesforce/)
 
-4. More information on the agent
+4. [Setting up scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/)
+
+5. More information on the agent
 
 [Learn about ODI agents](https://blogs.oracle.com/dataintegration/learn-about-oracle-data-integrator-odi-agents)
 
