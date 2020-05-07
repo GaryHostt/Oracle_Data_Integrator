@@ -31,7 +31,7 @@ Get started by spinning up [Oracle Data Integrator on OCI Marketplace](https://c
 
 [Manipulating Data from Object Storage to ADW using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
-[Using an autonomous database as your Repository (isntead of the embedded MySQL database)](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e)
+[Using an autonomous database as your Repository (instead of the embedded MySQL database)](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e)
 
 [Using object storage with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-object-storage.html#GUID-DFE3EBF0-0A0D-4BA0-94FE-202185E47804)
 
