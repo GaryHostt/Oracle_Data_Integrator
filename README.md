@@ -10,6 +10,8 @@ Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusio
 
 Here is the [12.2.1.3 documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/getting-started-oracle-cloud-marketplace.html#GUID-1793F6A6-8581-465D-BBE3-8F0C8ADD6536).
 
+Get started by spinning up [Oracle Data Integrator on OCI Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/59419903) or by spinning up [ODI Studio on VirtualBox]((https://www.oracle.com/downloads/developer-vm/community-downloads.html#odi)).
+
 ## Recommended beginner tutorials
 [How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf)
 
@@ -17,11 +19,7 @@ Here is the [12.2.1.3 documentation](https://docs.oracle.com/en/middleware/fusio
 
 [How to install ODI from the marketplace](https://www.ateam-oracle.com/deploying-oracle-data-integrator-marketplace-in-a-public-subnet-with-autonomous-database)
 
-[How to install ODI from the marketplace (backup)](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf)
-
-[Oracle Data Integrator on OCI Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/59419903)
-
-[Install ODI on VirtualBox](https://www.oracle.com/downloads/developer-vm/community-downloads.html#odi)
+[How to install ODI from the marketplace (alternative)](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf)
 
 [Basics/Overview of ODI on Youtube](https://www.youtube.com/watch?v=Mtz9mEQRBXA)
 
