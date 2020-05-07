@@ -6,14 +6,18 @@
 
 This guide will show you the resources to learn the basics of using ODI. 
 
-Here is the main [ODI documentation](https://docs.oracle.com/middleware/12212/odi/index.html).
+Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/index.html).
+
+Here is the [12.2.1.3 documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/getting-started-oracle-cloud-marketplace.html#GUID-1793F6A6-8581-465D-BBE3-8F0C8ADD6536).
 
 ## Recommended beginner tutorials
 [How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf)
 
 [Flat file to database](https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_12c/odi12c_exp_flat_2_tbl/odi12c_exp_flat_2_tbl.html#section1)
 
-[How to install ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf)
+[How to install ODI from the marketplace](https://www.ateam-oracle.com/deploying-oracle-data-integrator-marketplace-in-a-public-subnet-with-autonomous-database)
+
+[How to install ODI from the marketplace (backup)](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf)
 
 [Oracle Data Integrator on OCI Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/59419903)
 
@@ -23,11 +27,21 @@ Here is the main [ODI documentation](https://docs.oracle.com/middleware/12212/od
 
 [ODI Learning Tutorials](https://blogs.oracle.com/dataintegration/data-integration-platform-cloud-for-saas-applications)
 
+## ODI with BICC, ADW, OCI object storage
+
 [Moving data to ADW](https://blogs.oracle.com/dataintegration/loading-data-into-oracle-autonomous-data-warehouse-cloud-with-oracle-data-integration)
 
 [Manipulating Data from Object Storage to ADW using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
-## Use cases
+[Using an autonomous database as your Repository (isntead of the embedded MySQL database)](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e)
+
+[Using object storage with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-object-storage.html#GUID-DFE3EBF0-0A0D-4BA0-94FE-202185E47804)
+
+[Using BICC with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-business-intelligence-cloud-connector.html#GUID-57D29056-3FBF-41B8-9F2A-C38B1556983F)
+
+[Using ADW with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-autonomous-data-warehouse-cloud.html#GUID-4C242603-09C4-464F-B299-2F21C67D1E43)
+
+## More Use cases
 
 ### Reading files from remote servers
 To read a file from a remote server, you must install an agent on that server so it can access the files.
@@ -117,6 +131,9 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 
 [The Standalone-Collocated Agent](https://www.kpipartners.com/blog/bid/157960/The-Oracle-Data-Integrator-12C-Standalone-Collocated-Agent)
 
+### Misc
+
+[How to recover supervisor password](https://odielt.wordpress.com/2017/03/01/how-to-supervisor-password-in-odi/)
 
 
 
