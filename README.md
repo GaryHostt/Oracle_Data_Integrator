@@ -144,6 +144,8 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 
 ### Misc
 
+[File mapping project - youtube](https://www.youtube.com/watch?v=B7hyh3QPsLs)
+
 [How to recover supervisor password](https://odielt.wordpress.com/2017/03/01/how-to-supervisor-password-in-odi/)
 
 
