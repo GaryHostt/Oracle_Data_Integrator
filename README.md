@@ -28,6 +28,10 @@ If you're starting from scratch, use the above two links to get yourself ODI on 
 
 The above two workshops are the best places to get started using ODI before proceeding with more complex use cases below.
 
+[VNCViewer](https://www.realvnc.com/en/connect/download/viewer/windows/) or [TigerVNC](https://tigervnc.org/)
+
+After spinning up ODI on OCI, you will need one of the two above in order to see the Linux & ODI GUI.
+
 [Basics/Overview of ODI on Youtube](https://www.youtube.com/watch?v=Mtz9mEQRBXA)
 
 [ODI Learning Tutorials](https://blogs.oracle.com/dataintegration/data-integration-platform-cloud-for-saas-applications)
@@ -147,6 +151,15 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 [File mapping project - youtube](https://www.youtube.com/watch?v=B7hyh3QPsLs)
 
 [How to recover supervisor password](https://odielt.wordpress.com/2017/03/01/how-to-supervisor-password-in-odi/)
+
+[Create an API key for OCI user](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm)
+
+The above is requisite for connecting to object storage with ODI.
+
+```
+ssh-keygen -t rsa -b 2048
+```
+This is a bash command that can be used to generate ssh keys for the compute node where the marketplace image runs. If you give them to another user to connect, that user needs to run 'chmod 400' on that key after receiving it.
 
 
 
