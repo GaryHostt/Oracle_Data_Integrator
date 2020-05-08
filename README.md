@@ -46,6 +46,8 @@ The above two workshops are the best places to get started using ODI before proc
 
 [Using BICC with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-business-intelligence-cloud-connector.html#GUID-57D29056-3FBF-41B8-9F2A-C38B1556983F)
 
+While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications.
+
 [Using ADW with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-autonomous-data-warehouse-cloud.html#GUID-4C242603-09C4-464F-B299-2F21C67D1E43)
 
 ## More Use cases
