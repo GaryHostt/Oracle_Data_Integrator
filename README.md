@@ -52,18 +52,6 @@ While you can work with BICC extracts if they are being written to object storag
 
 ## More Use cases
 
-### Reading files from remote servers
-To read a file from a remote server, you must install an agent on that server so it can access the files.
-[Install an agent on the server (details on how & why)](https://community.oracle.com/thread/3892184)
-
-**Note:** Using an agent is not allowed with ODI Marketplace - in place of the agent you can create a VPN connection, whitelist the IP address of the compute node ODI is running on, and/or have FastConnect.
-
-[Where to install agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
-
-**Note:** Again, this is not an option when solely using ODI in the cloud - you need an on-prem license as well. 
-
-[How to install agent](https://docs.oracle.com/en/middleware/data-integrator/12.2.1.3/tutorial-creating-standalone-agent/)
-
 ### Connecting to SQL Server
 
 To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Server.
@@ -97,6 +85,18 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 [Connecting with the JDBC Driver](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15)
 
 [Connecting to SQL Server](https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB)
+
+### Reading files from remote servers
+To read a file from a remote server, you must install an agent on that server so it can access the files.
+[Install an agent on the server (details on how & why)](https://community.oracle.com/thread/3892184)
+
+**Note:** Using an agent is not allowed with ODI Marketplace - in place of the agent you can create a VPN connection, whitelist the IP address of the compute node ODI is running on, and/or have FastConnect.
+
+[Where to install agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
+
+**Note:** Again, this is not an option when solely using ODI in the cloud - you need an on-prem license as well. 
+
+[How to install agent](https://docs.oracle.com/en/middleware/data-integrator/12.2.1.3/tutorial-creating-standalone-agent/)
 
 ### Other use cases
 1. [You can execute SSIS packages from SQL Server stored procedures](https://www.mssqltips.com/sqlservertip/2992/how-to-execute-an-integration-services-ssis-package-from-a-sql-server-stored-procedure/)
