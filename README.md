@@ -12,6 +12,8 @@ Here is the [12.2.1.3 documentation](https://docs.oracle.com/en/middleware/fusio
 
 Get started by spinning up [Oracle Data Integrator on OCI Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/59419903) or by spinning up [ODI Studio on VirtualBox](https://www.oracle.com/downloads/developer-vm/community-downloads.html#odi).
 
+[What's new in ODI 12c?](http://www.oracle.com/us/products/middleware/data-integration/odi-12c-new-features-wp-122140-5762948.pdf)
+
 ## Recommended beginner tutorials
 [How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf)
 
