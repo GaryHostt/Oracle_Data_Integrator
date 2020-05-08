@@ -14,7 +14,7 @@ Get started by spinning up [Oracle Data Integrator on OCI Marketplace](https://c
 
 [What's new in ODI 12c?](http://www.oracle.com/us/products/middleware/data-integration/odi-12c-new-features-wp-122140-5762948.pdf)
 
-## Recommended beginner tutorials
+## Getting started
 
 [How to install ODI from the marketplace](https://www.ateam-oracle.com/deploying-oracle-data-integrator-marketplace-in-a-public-subnet-with-autonomous-database)
 
