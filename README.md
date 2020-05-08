@@ -44,7 +44,7 @@ In general, for users seeking to extract high volumes (or incremental) of data f
 
 While the marketplace image comes with an embedded MySQL database which can be used for your ODI repository, the above documentation shows how to use an Autonomous Database instead to take advantage its Oracle-managed features. 
 
-[Complete guide on the ODI marketplace + BICC +object storage](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
+[Complete guide on the ODI marketplace + BICC +object storage + Autonomous Database](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
 
 [Manipulating Data from Object Storage to ADW using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
