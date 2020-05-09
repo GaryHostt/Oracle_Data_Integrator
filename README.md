@@ -20,25 +20,25 @@ You can find ODI on the OCI marketplace at this [link](https://cloudmarketplace.
 
 If you're starting from scratch, follow along with either of the above two links to get ODI running on OCI, here is a [PDF version of the above links](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf). You use will use [Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm) on OCI to manage your deployments with terraform.
 
+While the marketplace image comes with an embedded MySQL database which can be used for your ODI repository, alternatively, you can follow this guide to use [an Autonomous Database as your Repository](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e) instead.  
+
 [Flat file to database](https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_12c/odi12c_exp_flat_2_tbl/odi12c_exp_flat_2_tbl.html#section1) - beginner
 
-[How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf) - advanced
+[How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf) - advanced (note: use embedded MySQL Repository to have tables in this lab)
 
-The above two workshops are the best places to get started using ODI before proceeding with more complex use cases below.
+The above workshops are the best places to get started using ODI before proceeding with more complex use cases below.
 
 What does you by ODI uses ELT instead of ETL? What is a knowledge module? How can ODI work with GoldenGate? And more questions can be answered in this [overview of ODI on Youtube](https://www.youtube.com/watch?v=Mtz9mEQRBXA).
 
-## ODI with BICC, ADW, OCI Object Storage
+## Getting data out of Fusion Applications with ODI
+
+### BICC ---> OCI Object Storage ---> ADW
 
 In general, for users seeking to extract high volumes (or incremental) of data from Fusion, they can use BICC to send extracts to Oracle object storage. ODI can then read the CSVs from there and write them to the target database of your choice. Details on this usage parttern are explained below. However, [data can also be extracted with ODI via BI Publisher reports](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-enterprise-resource-planning-cloud.html#GUID-9D29A5CB-00A4-4033-B63C-31EF8123276A).
 
-[Using an Autonomous Database as your Repository](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e)
-
-While the marketplace image comes with an embedded MySQL database which can be used for your ODI repository, the above documentation shows how to use an Autonomous Database instead to take advantage its Oracle-managed features. 
-
 [Complete guide on the ODI marketplace + BICC + Object Storage + Autonomous Database](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
 
-This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion applications to the Autonomous Data Warehouse. 
+This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion  applications to the Autonomous Data Warehouse. 
 
 [Manipulating Data from Object Storage to Autonomous Database using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
@@ -52,7 +52,7 @@ The above two pages focus on connecting object storage and ADW/ATP to ODI.
 
 [Using BICC with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-business-intelligence-cloud-connector.html#GUID-57D29056-3FBF-41B8-9F2A-C38B1556983F)
 
-The are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. In order to work with BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology. After completing the above walk-throughs, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data integration pipeline.
+The 3 links above are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. In order to work with BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology. After completing the above walk-throughs, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data integration pipeline.
 
 ## More Use cases
 
