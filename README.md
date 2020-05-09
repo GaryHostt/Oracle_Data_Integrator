@@ -3,10 +3,6 @@
 
 ![](pic.png)
 
-<p align="center">
-  <img src="https://github.com/GaryHostt/Oracle_Data_Integrator/blob/master/pic.png?raw=true" alt="ODI"/>
-</p>
-
 This guide will show you the resources to learn the basics of using ODI. 
 
 Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/index.html).
