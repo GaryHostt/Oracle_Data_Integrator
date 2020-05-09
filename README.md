@@ -1,7 +1,7 @@
 # Oracle_Data_Integrator
 
 <p align="center">
-  <img src="https://github.com/GaryHostt/Oracle_Data_Integrator/blob/master/77.png?raw=true" alt="ODI"/>
+  <img src="https://github.com/GaryHostt/Oracle_Data_Integrator/blob/master/pic.png?raw=true" alt="ODI"/>
 </p>
 
 This guide will show you the resources to learn the basics of using ODI. 
