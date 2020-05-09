@@ -121,9 +121,7 @@ So then, what is the[Local(no agent)](https://www.databaseusers.com/article/6349
 
 [Main salesforce/ODI doumentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/salesforce-com.html#GUID-8B7FF042-1B82-4443-82D6-74D6F8B3D361)
 
-Salesforce connects via JDBC as well
-
-  This is the syntax for salesforce's JDBC connection under physical topology:
+Salesforce connects via JDBC as well, this is the syntax for salesforce's JDBC connection under physical topology:
 ```     
 
 jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=password12345;SecurityToken=6gaFzpiuetpyubD6Yhadk;ljadDTlNKpX
