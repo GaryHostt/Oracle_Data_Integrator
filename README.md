@@ -34,31 +34,31 @@ After spinning up ODI on OCI, you will need one of the two above in order to see
 
 [ODI Learning Tutorials](https://blogs.oracle.com/dataintegration/data-integration-platform-cloud-for-saas-applications)
 
-## ODI with BICC, ADW, OCI object storage
+## ODI with BICC, ADW, OCI Object Storage
 
 In general, for users seeking to extract high volumes (or incremental) of data from Fusion, they can use BICC to send extracts to Oracle object storage. ODI can then read the CSVs from there and write them to the target database of your choice. Details on this usage parttern are explained below. However, [data can also be extracted with ODI via BI Publisher reports](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-enterprise-resource-planning-cloud.html#GUID-9D29A5CB-00A4-4033-B63C-31EF8123276A).
 
-[Using an autonomous database as your Repository](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e)
+[Using an Autonomous Database as your Repository](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e)
 
 While the marketplace image comes with an embedded MySQL database which can be used for your ODI repository, the above documentation shows how to use an Autonomous Database instead to take advantage its Oracle-managed features. 
 
-[Complete guide on the ODI marketplace + BICC + object storage + Autonomous Database](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
+[Complete guide on the ODI marketplace + BICC + Object Storage + Autonomous Database](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
 
 This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion applications to the Autonomous Data Warehouse. 
 
 [Manipulating Data from Object Storage to Autonomous Database using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
-[Connecting to object storage with ODI + screenshots](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
+[Connecting to Object Storage with ODI + screenshots](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
 The above two pages focus on connecting object storage and ADW/ATP to ODI. 
 
-[Using object storage with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-object-storage.html#GUID-DFE3EBF0-0A0D-4BA0-94FE-202185E47804)
+[Using Object Storage with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-object-storage.html#GUID-DFE3EBF0-0A0D-4BA0-94FE-202185E47804)
 
 [Using ADW with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-autonomous-data-warehouse-cloud.html#GUID-4C242603-09C4-464F-B299-2F21C67D1E43)
 
 [Using BICC with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-business-intelligence-cloud-connector.html#GUID-57D29056-3FBF-41B8-9F2A-C38B1556983F)
 
-The are the main documentation pages for using object storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. In order to work with BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology.
+The are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. In order to work with BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology.
 
 ## More Use cases
 
