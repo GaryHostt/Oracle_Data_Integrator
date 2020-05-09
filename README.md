@@ -38,13 +38,13 @@ In general, for users seeking to extract high volumes (or incremental) of data f
 
 [Complete guide on the ODI marketplace + BICC + Object Storage + Autonomous Database](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
 
-This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion  applications to the Autonomous Data Warehouse. 
+This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion  applications to the Autonomous Data Warehouse. Afte completing this walkthrough, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data integration pipeline. If you have problems with this walk-through, consult the documentation below.
 
 [Manipulating Data from Object Storage to Autonomous Database using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
 [Connecting to Object Storage with ODI + screenshots](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
-The above two pages focus on connecting object storage and ADW/ATP to ODI. 
+The above two pages focus on connecting object storage and ADW/ATP to ODI. To connect to object storage in ODI, the PEM key you use must have a passphrase. In order to work with the compressed BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology.
 
 [Using Object Storage with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-object-storage.html#GUID-DFE3EBF0-0A0D-4BA0-94FE-202185E47804)
 
@@ -52,7 +52,7 @@ The above two pages focus on connecting object storage and ADW/ATP to ODI.
 
 [Using BICC with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-business-intelligence-cloud-connector.html#GUID-57D29056-3FBF-41B8-9F2A-C38B1556983F)
 
-The 3 links above are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. In order to work with BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology. After completing the above walk-throughs, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data integration pipeline.
+The 3 links above are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. 
 
 ## More Use cases
 
@@ -62,7 +62,7 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 
 1. Download & install the JDBC driver for SQL Server:
 
-[Download](https://www.microsoft.com/en-us/download/details.aspx?id=58505)
+[Download JDBC](https://www.microsoft.com/en-us/download/details.aspx?id=58505)
 
 [JDBC Driver details](https://docs.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15)
 
