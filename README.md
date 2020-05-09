@@ -10,7 +10,7 @@ Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusio
 
 Get started by spinning up [Oracle Data Integrator on OCI Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/59419903) or by spinning up [ODI Studio on VirtualBox](https://www.oracle.com/downloads/developer-vm/community-downloads.html#odi).
 
-[What's new in ODI 12c?](http://www.oracle.com/us/products/middleware/data-integration/odi-12c-new-features-wp-122140-5762948.pdf)
+[What's new in ODI 12c?](http://www.oracle.com/us/products/middleware/data-integration/odi-12c-new-features-wp-122140-5762948.pdf)f
 
 ## Getting started
 
@@ -58,7 +58,7 @@ The above two pages focus on connecting object storage and ADW/ATP to ODI.
 
 [Using BICC with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-business-intelligence-cloud-connector.html#GUID-57D29056-3FBF-41B8-9F2A-C38B1556983F)
 
-The are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. In order to work with BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology.
+The are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. In order to work with BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology. After completing the above walk-throughs, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data integration pipeline.
 
 ## More Use cases
 
@@ -130,11 +130,15 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 
 [And more salesforce information](https://www.cdata.com/kb/tech/salesforce-jdbc-odi.rst)
 
-### Misc
+## More Oracle Cloud
+
+For moving smaller quantities of data or enabling app-to-app integration, consider [Oracle Integration](https://github.com/GaryHostt/Oracle_Integration). 
+
+Click [here](https://github.com/GaryHostt/OCI_DevOps) to start developing cloud-native applications on OCI.
+
+### ODI Misc
 
 [File mapping project - youtube](https://www.youtube.com/watch?v=B7hyh3QPsLs)
-
-[Setting up scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/)
 
 [How to recover the supervisor password](https://odielt.wordpress.com/2017/03/01/how-to-supervisor-password-in-odi/)
 
