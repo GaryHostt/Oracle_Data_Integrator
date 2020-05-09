@@ -98,24 +98,30 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 
 [Connecting to SQL Server](https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB)
 
+4. SSIS packages
+
+[You can execute SSIS packages from SQL Server stored procedures](https://www.mssqltips.com/sqlservertip/2992/how-to-execute-an-integration-services-ssis-package-from-a-sql-server-stored-procedure/)
+
+[More SSIS information](https://docs.microsoft.com/en-us/sql/integration-services/deploy-and-execute-ssis-packages-using-stored-procedures?view=sql-server-2014)
+
 ### Reading files from remote servers
+
 To read a file from a remote server, you must install an agent on that server so it can access the files.
 [Install an agent on the server (details on how & why)](https://community.oracle.com/thread/3892184)
 
-**Note:** Using an agent is not allowed with ODI Marketplace - in place of the agent you can create a VPN connection, whitelist the IP address of the compute node ODI is running on, and/or have FastConnect.
+**Note:** Using an agent is not possible solely with the ODI Marketplace - in place of the agent you can create a [VPN connection](https://www.oracle.com/a/ocom/docs/connectivity-ipsec-vpn-200.pdf), whitelist the IP address of the compute node ODI is running on, and/or have [FastConnect](https://www.oracle.com/cloud/networking/fastconnect.html).
 
 [Where to install agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
 
-**Note:** Again, this is not an option when solely using ODI in the cloud - you need an on-prem license as well. 
-
 [How to install agent](https://docs.oracle.com/en/middleware/data-integrator/12.2.1.3/tutorial-creating-standalone-agent/)
 
-### Other use cases
-1. [You can execute SSIS packages from SQL Server stored procedures](https://www.mssqltips.com/sqlservertip/2992/how-to-execute-an-integration-services-ssis-package-from-a-sql-server-stored-procedure/)
+So then, what is the[Local(no agent)](https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent) that ODI marketplace uses?
 
-2. [More SSIS information](https://docs.microsoft.com/en-us/sql/integration-services/deploy-and-execute-ssis-packages-using-stored-procedures?view=sql-server-2014)
+### Connecting to salesforce
 
-3. Salesforce connects via JDBC as well
+[Main salesforce/ODI doumentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/salesforce-com.html#GUID-8B7FF042-1B82-4443-82D6-74D6F8B3D361)
+
+Salesforce connects via JDBC as well
 
   This is the syntax for salesforce's JDBC connection under physical topology:
 ```     
@@ -126,9 +132,26 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 
 [More salesforce information](https://blogs.perficient.com/2016/09/14/odi-integration-with-salesforce/)
 
-4. [Setting up scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/)
+[And more salesforce information](https://www.cdata.com/kb/tech/salesforce-jdbc-odi.rst)
 
-5. More information on the agent
+### Misc
+
+[File mapping project - youtube](https://www.youtube.com/watch?v=B7hyh3QPsLs)
+
+[Setting up scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/)
+
+[How to recover the supervisor password](https://odielt.wordpress.com/2017/03/01/how-to-supervisor-password-in-odi/)
+
+[Create an API key for OCI user](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm)
+
+The above is requisite for connecting to object storage with ODI.
+
+```
+ssh-keygen -t rsa -b 2048
+```
+This is a bash command that can be used to generate ssh keys for the compute node where the marketplace image runs. If you give them to another user to connect, that user needs to run 'chmod 400' on that key after receiving it.
+
+#### More information on the agent 
 
 [Learn about ODI agents](https://blogs.oracle.com/dataintegration/learn-about-oracle-data-integrator-odi-agents)
 
@@ -146,24 +169,7 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 
 [Differences between agent types](https://stackoverflow.com/questions/51043048/what-is-the-significance-of-localno-agent-standalone-java-agent-in-odi)
 
-[Local(no agent)](https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent)
-
 [The Standalone-Collocated Agent](https://www.kpipartners.com/blog/bid/157960/The-Oracle-Data-Integrator-12C-Standalone-Collocated-Agent)
-
-### Misc
-
-[File mapping project - youtube](https://www.youtube.com/watch?v=B7hyh3QPsLs)
-
-[How to recover supervisor password](https://odielt.wordpress.com/2017/03/01/how-to-supervisor-password-in-odi/)
-
-[Create an API key for OCI user](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm)
-
-The above is requisite for connecting to object storage with ODI.
-
-```
-ssh-keygen -t rsa -b 2048
-```
-This is a bash command that can be used to generate ssh keys for the compute node where the marketplace image runs. If you give them to another user to connect, that user needs to run 'chmod 400' on that key after receiving it.
 
 
 
