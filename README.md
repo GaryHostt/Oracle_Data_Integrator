@@ -8,8 +8,6 @@ This guide will show you the resources to learn the basics of using ODI.
 
 Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/index.html).
 
-Here is the [12.2.1.3 documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/getting-started-oracle-cloud-marketplace.html#GUID-1793F6A6-8581-465D-BBE3-8F0C8ADD6536).
-
 Get started by spinning up [Oracle Data Integrator on OCI Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/59419903) or by spinning up [ODI Studio on VirtualBox](https://www.oracle.com/downloads/developer-vm/community-downloads.html#odi).
 
 [What's new in ODI 12c?](http://www.oracle.com/us/products/middleware/data-integration/odi-12c-new-features-wp-122140-5762948.pdf)
