@@ -98,7 +98,7 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 
 ### Reading files from remote servers
 
-Click [here](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/working-odi-instance.html#GUID-282CCCCD-B89A-48F4-8301-0F6C4F21341C] to read about the standalone Agent that comes with the ODI Marketplace.
+Click [here](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/working-odi-instance.html#GUID-282CCCCD-B89A-48F4-8301-0F6C4F21341C) to read about the standalone Agent that comes with the ODI Marketplace.
 
 To read a file from a remote server, you must install an agent on that server so it can access the files.
 (this links describes on how & why)](https://community.oracle.com/thread/3892184).
