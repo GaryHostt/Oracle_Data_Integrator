@@ -16,9 +16,9 @@ You can find ODI on the OCI marketplace at this [link](https://cloudmarketplace.
 
 [How to install ODI from the marketplace](https://www.ateam-oracle.com/deploying-oracle-data-integrator-marketplace-in-a-public-subnet-with-autonomous-database)
 
-[How to install ODI from the marketplace (alternative)](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf)
+[How to install ODI from the marketplace](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/getting-started-oracle-cloud-marketplace.html#GUID-1793F6A6-8581-465D-BBE3-8F0C8ADD6536)
 
-If you're starting from scratch, follow along with either of the above two links to get ODI running on OCI. You use will use [Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm) on OCI to manage your deployments with terraform.
+If you're starting from scratch, follow along with either of the above two links to get ODI running on OCI, here is a [PDF version of the above links](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf). You use will use [Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm) on OCI to manage your deployments with terraform.
 
 [Flat file to database](https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_12c/odi12c_exp_flat_2_tbl/odi12c_exp_flat_2_tbl.html#section1) - beginner
 
@@ -98,16 +98,12 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 
 ### Reading files from remote servers
 
+Click [here](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/working-odi-instance.html#GUID-282CCCCD-B89A-48F4-8301-0F6C4F21341C] to read about the standalone Agent that comes with the ODI Marketplace.
+
 To read a file from a remote server, you must install an agent on that server so it can access the files.
-[Install an agent on the server (details on how & why)](https://community.oracle.com/thread/3892184)
+(this links describes on how & why)](https://community.oracle.com/thread/3892184).
 
-**Note:** Using an agent is not possible solely with the ODI Marketplace - in place of the agent you can create a [VPN connection](https://www.oracle.com/a/ocom/docs/connectivity-ipsec-vpn-200.pdf), whitelist the IP address of the compute node ODI is running on, and/or have [FastConnect](https://www.oracle.com/cloud/networking/fastconnect.html).
-
-[Where to install agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
-
-[How to install agent](https://docs.oracle.com/en/middleware/data-integrator/12.2.1.3/tutorial-creating-standalone-agent/)
-
-So then, what is the[Local(no agent)](https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent) that ODI marketplace uses?
+**Note:** Using an agent in this manner is not possible solely with the ODI Marketplace - in place of the agent you can create a [VPN connection](https://www.oracle.com/a/ocom/docs/connectivity-ipsec-vpn-200.pdf), whitelist the IP address of the compute node ODI is running on, and/or have [FastConnect](https://www.oracle.com/cloud/networking/fastconnect.html).
 
 ### Connecting to salesforce
 
@@ -164,6 +160,12 @@ This is a bash command that can be used to generate ssh keys for the compute nod
 [Differences between agent types](https://stackoverflow.com/questions/51043048/what-is-the-significance-of-localno-agent-standalone-java-agent-in-odi)
 
 [The Standalone-Collocated Agent](https://www.kpipartners.com/blog/bid/157960/The-Oracle-Data-Integrator-12C-Standalone-Collocated-Agent)
+
+[Where to install agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
+
+[How to install agent](https://docs.oracle.com/en/middleware/data-integrator/12.2.1.3/tutorial-creating-standalone-agent/)
+
+[Linux user & the agent](https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent)?
 
 
 
