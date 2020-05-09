@@ -14,9 +14,9 @@ Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusio
 
 You can find ODI on the OCI marketplace at this [link](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/59419903) or you can start local development by spinning up [ODI Studio on VirtualBox](https://www.oracle.com/downloads/developer-vm/community-downloads.html#odi). If you are using the marketplace image, you will need [VNCViewer](https://www.realvnc.com/en/connect/download/viewer/windows/) or [TigerVNC](https://tigervnc.org/) in order to see the Linux GUI.
 
-[How to install ODI from the marketplace](https://www.ateam-oracle.com/deploying-oracle-data-integrator-marketplace-in-a-public-subnet-with-autonomous-database)
+[How to install ODI from the marketplace](https://www.ateam-oracle.com/deploying-oracle-data-integrator-marketplace-in-a-public-subnet-with-autonomous-database) - blog with more pictures
 
-[How to install ODI from the marketplace](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/getting-started-oracle-cloud-marketplace.html#GUID-1793F6A6-8581-465D-BBE3-8F0C8ADD6536)
+[How to install ODI from the marketplace](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/getting-started-oracle-cloud-marketplace.html#GUID-1793F6A6-8581-465D-BBE3-8F0C8ADD6536) - official documentation
 
 If you're starting from scratch, follow along with either of the above two links to get ODI running on OCI, here is a [PDF version of the above links](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf). You use will use [Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm) on OCI to manage your deployments with terraform.
 
