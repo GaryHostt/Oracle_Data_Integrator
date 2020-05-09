@@ -16,7 +16,7 @@ You can find ODI on the OCI marketplace at this [link](https://cloudmarketplace.
 
 [How to install ODI from the marketplace](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/getting-started-oracle-cloud-marketplace.html#GUID-1793F6A6-8581-465D-BBE3-8F0C8ADD6536) - official documentation
 
-If you're starting from scratch, follow along with either of the above two links to get ODI running on OCI, here is a [PDF version of the above links](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf). You use will use [Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm) on OCI to manage your deployments with terraform.
+- If you're starting from scratch, follow along with either of the above two links to get ODI running on OCI, here is a [PDF version of the above links](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf). You use will use [Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm) on OCI to manage your deployments with terraform.
 
 While the marketplace image comes with an embedded MySQL database which can be used for your ODI repository, alternatively, you can follow this guide to use [an Autonomous Database as your Repository](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e) instead.  
 
@@ -24,7 +24,7 @@ While the marketplace image comes with an embedded MySQL database which can be u
 
 [How to use ODI lab](https://www.oracle.com/technetwork/middleware/data-integrator/overview/odi-12c-getting-started-guide-2032250.pdf) - advanced (note: use embedded MySQL Repository to have tables in this lab)
 
-The above workshops are the best places to get started using ODI before proceeding with more complex use cases below.
+- The above workshops are the best places to get started using ODI before proceeding with more complex use cases below.
 
 What does you by ODI uses ELT instead of ETL? What is a knowledge module? How can ODI work with GoldenGate? And more questions can be answered in this [overview of ODI on Youtube](https://www.youtube.com/watch?v=Mtz9mEQRBXA).
 
@@ -36,13 +36,13 @@ In general, for users seeking to extract high volumes (or incremental) of data f
 
 [Complete guide on the ODI marketplace + BICC + Object Storage + Autonomous Database](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
 
-This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion  applications to the Autonomous Data Warehouse. Afte completing this walkthrough, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data integration pipeline. If you have problems with this walk-through, consult the documentation below.
+- This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion  applications to the Autonomous Data Warehouse. Afte completing this walkthrough, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data integration pipeline. If you have problems with this walk-through, consult the documentation below.
 
 [Manipulating Data from Object Storage to Autonomous Database using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
 [Connecting to Object Storage with ODI + screenshots](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
-The above two pages focus on connecting object storage and ADW/ATP to ODI. To connect to object storage in ODI, the PEM key you use must have a passphrase. In order to work with the compressed BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology.
+- The above two pages focus on connecting object storage and ADW/ATP to ODI. To connect to object storage in ODI, the PEM key you use must have a passphrase. In order to work with the compressed BICC extracts in object storage, you must first make an object storage topology and then the BICC toplology.
 
 [Using Object Storage with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-object-storage.html#GUID-DFE3EBF0-0A0D-4BA0-94FE-202185E47804)
 
@@ -50,7 +50,7 @@ The above two pages focus on connecting object storage and ADW/ATP to ODI. To co
 
 [Using BICC with ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-business-intelligence-cloud-connector.html#GUID-57D29056-3FBF-41B8-9F2A-C38B1556983F)
 
-The 3 links above are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. 
+- The 3 links above are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. 
 
 ## More Use cases
 
@@ -118,9 +118,7 @@ jdbc.weblogic:sforce//login.salesforce.com;User=email@email.com;Password=passwor
 
 ```
 
-[More salesforce information](https://blogs.perficient.com/2016/09/14/odi-integration-with-salesforce/)
-
-[And more salesforce information](https://www.cdata.com/kb/tech/salesforce-jdbc-odi.rst)
+More salesforce + ODI information:[here](https://blogs.perficient.com/2016/09/14/odi-integration-with-salesforce/) & [here](https://www.cdata.com/kb/tech/salesforce-jdbc-odi.rst)
 
 ## More Oracle Cloud
 
