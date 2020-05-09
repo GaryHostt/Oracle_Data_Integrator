@@ -34,7 +34,7 @@ In general, for users seeking to extract high volumes (or incremental) of data f
 
 [Complete guide on the ODI marketplace + BICC + Object Storage + Autonomous Database](https://www.ateam-oracle.com/reference-architecture-fusion-saas-data-replication-into-adw-%3A-using-odi-marketplace-and-bicc)
 
-- This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion  applications to the Autonomous Data Warehouse. Afte completing this walkthrough, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data integration pipeline. **If you have problems with this walk-through or want to know more, consult the documentation below.**
+- This blog post starts from scratch, spinning up ODI, then it proceeds to enable ODI to integrate BICC extracts from Fusion  applications to the Autonomous Data Warehouse. After completing this walkthrough, you can start [setting up ODI scenarios & plans](https://blogs.perficient.com/2014/09/02/creating-oracle-data-integrator-odi-scenario-and-load-plan/) which will automate your data pipeline. **If you have problems with this walk-through or want to know more, consult the documentation below.**
 
 [Manipulating Data from Object Storage to Autonomous Database using ODI](https://blogs.oracle.com/dataintegration/manipulating-data-from-oracle-object-storage-to-oracle-autonomous-data-warehouse-adw-with-oracle-data-integrator-odi)
 
