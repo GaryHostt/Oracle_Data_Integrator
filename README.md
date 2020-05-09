@@ -30,7 +30,7 @@ What does you by ODI uses ELT instead of ETL? What is a knowledge module? How ca
 
 ## Getting data out of Fusion Applications with ODI
 
-### BICC ---> OCI Object Storage ---> ADW
+### Business Intelligence Cloud Connector ---> OCI Object Storage ---> Autonomous Database
 
 In general, for users seeking to extract high volumes (or incremental) of data from Fusion, they can use BICC to send extracts to Oracle object storage. ODI can then read the CSVs from there and write them to the target database of your choice. Details on this usage parttern are explained below. However, [data can also be extracted with ODI via BI Publisher reports](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odikm/oracle-enterprise-resource-planning-cloud.html#GUID-9D29A5CB-00A4-4033-B63C-31EF8123276A).
 
