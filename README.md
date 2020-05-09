@@ -6,7 +6,7 @@
 
 This guide will show you the resources to learn the basics of using ODI, how to extract data from Oracle SaaS to Autonomous Database, and other information. 
 
-Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/index.html).
+Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/index.html). Everything is always in the documentation.
 
 [What's new in ODI 12c?](http://www.oracle.com/us/products/middleware/data-integration/odi-12c-new-features-wp-122140-5762948.pdf)
 
@@ -55,6 +55,10 @@ The above two pages focus on connecting object storage and ADW/ATP to ODI. To co
 The 3 links above are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. 
 
 ## More Use cases
+
+[How to connect to RESTful Services with ODI - tutorial](https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_12c/odi_12.2.1.1/Integrating_RESTful_Services/ODI_12_2_1_REST.html#section1) 
+
+[10 hours of tutorials for various ODI uses from Oracle](https://apexapps.oracle.com/pls/apex/f?p=44785:24:9182033694040::::P24_CONTENT_ID,P24_PREV_PAGE:7952,24)
 
 ### Connecting to SQL Server
 
