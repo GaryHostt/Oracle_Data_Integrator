@@ -60,7 +60,7 @@ The 3 links above are the main documentation pages for using Object Storage, ADW
 
 To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Server.
 
-1. Download & install the JDBC driver for SQL Server:
+#### Download & install the JDBC driver for SQL Server
 
 [Download JDBC](https://www.microsoft.com/en-us/download/details.aspx?id=58505)
 
@@ -70,7 +70,7 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 
 [Download & install the Java Runtime Environment for SQL Server connection](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-2. Adding JDBC & JRE to the path where SQL Server runs:
+#### Adding JDBC & JRE to the path where SQL Server runs
 
 [Using the JDBC Driver](https://docs.microsoft.com/en-us/sql/connect/jdbc/using-the-jdbc-driver?view=sql-server-ver15)
 
@@ -80,7 +80,7 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 
 [General JDBC driver notes](https://docs.microsoft.com/en-us/sql/connect/jdbc/overview-of-the-jdbc-driver?view=sql-server-ver15)
 
-3. Connecting to SQL Server on ODI (extra documentation):
+#### Connecting to SQL Server on ODI (extra documentation)
 
 [Knowledge modules for SQL Server on ODI](https://docs.oracle.com/middleware/1212/odi/ODIKM/ms_sqlserver.htm#ODIKM957)
 
@@ -90,7 +90,7 @@ To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Se
 
 [Connecting to SQL Server](https://docs.oracle.com/html/E12644_03/ms_sqlserver.htm#BGBHDDGB)
 
-4. SSIS packages
+#### SSIS packages
 
 [You can execute SSIS packages from SQL Server stored procedures](https://www.mssqltips.com/sqlservertip/2992/how-to-execute-an-integration-services-ssis-package-from-a-sql-server-stored-procedure/)
 
@@ -134,24 +134,34 @@ Click [here](https://github.com/GaryHostt/OCI_DevOps) to start developing cloud-
 
 [Create an API key for OCI user](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm)
 
-The above is requisite for connecting to object storage with ODI.
+- The above is requisite for connecting to object storage with ODI, you will need to create a passphrase with your key.
 
 ```
 ssh-keygen -t rsa -b 2048
 ```
-This is a bash command that can be used to generate ssh keys for the compute node where the marketplace image runs. If you give them to another user to connect, that user needs to run 'chmod 400' on that key after receiving it.
+- This is a bash command that can be used to generate ssh keys for the compute node where the marketplace image runs. If you give them to another user to connect, that user needs to run 'chmod 400' on that key after receiving it.
 
 #### More information on the agent 
 
-[Learn about ODI agents](https://blogs.oracle.com/dataintegration/learn-about-oracle-data-integrator-odi-agents)
+##### A-team blogs
 
 [Where to install the standalone agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
 
 [Differences between the agents](https://www.ateam-oracle.com/odi-agents-standalone-jee-and-colocated)
 
+[Where to install agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
+
+[Learn about ODI agents](https://blogs.oracle.com/dataintegration/learn-about-oracle-data-integrator-odi-agents)
+
+##### Oracle Guides
+
 [Creating a standalone agent](https://docs.oracle.com/en/middleware/fusion-middleware/tutorial-creating-standalone-agent/#CreatingaLogicalAgent)
 
 [Setting up the ODI agent](https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_11g/setup_odi_agent/setup_odi_agent.htm)
+
+[How to install agent](https://docs.oracle.com/en/middleware/data-integrator/12.2.1.3/tutorial-creating-standalone-agent/)
+
+##### Community information
 
 [Colocated agent](https://gerardnico.com/dit/odi/agent#colocated)
 
@@ -160,10 +170,6 @@ This is a bash command that can be used to generate ssh keys for the compute nod
 [Differences between agent types](https://stackoverflow.com/questions/51043048/what-is-the-significance-of-localno-agent-standalone-java-agent-in-odi)
 
 [The Standalone-Collocated Agent](https://www.kpipartners.com/blog/bid/157960/The-Oracle-Data-Integrator-12C-Standalone-Collocated-Agent)
-
-[Where to install agent](https://www.ateam-oracle.com/understanding-where-to-install-the-odi-standalone-agent)
-
-[How to install agent](https://docs.oracle.com/en/middleware/data-integrator/12.2.1.3/tutorial-creating-standalone-agent/)
 
 [Linux user & the agent](https://www.databaseusers.com/article/6349392/local(No+agent)+vs+OracleDIAgent)?
 
