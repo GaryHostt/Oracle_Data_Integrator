@@ -1,6 +1,5 @@
 # Oracle_Data_Integrator
 
-
 ![](pic.png)
 
 This guide will show you the resources to learn the basics of using ODI. 
