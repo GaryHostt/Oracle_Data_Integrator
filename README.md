@@ -16,7 +16,7 @@ You can find ODI on the OCI marketplace at this [link](https://cloudmarketplace.
 
 - If you're starting from scratch, follow along with either of the above two links to get ODI running on OCI, here is a [PDF version of the above links](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.3/odimp/using-oracle-data-integrator-oracle-cloud-marketplace.pdf). You use will use [Resource Manager](https://docs.cloud.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm) on OCI to manage your deployments with terraform.
 
-While the marketplace image comes with an embedded MySQL database which can be used for your ODI repository, alternatively, you can follow this guide to use [an Autonomous Database as your Repository](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e) instead.  
+While the marketplace image comes with an embedded MySQL database which can be used for your ODI repository, alternatively, you can follow this guide to use [an Autonomous Database as your Repository](https://medium.com/@zzhangjii/configure-autonomous-database-adb-as-repo-for-oracle-data-integrator-odi-3d1a3dba412e) instead.
 
 [Flat file to database](https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_12c/odi12c_exp_flat_2_tbl/odi12c_exp_flat_2_tbl.html#section1) - beginner
 
@@ -50,11 +50,13 @@ In general, for users seeking to extract high volumes (or incremental) of data f
 
 - These three links are the main documentation pages for using Object Storage, ADW, and BICC with ODI. While you can work with BICC extracts if they are being written to object storage, you can also work with BICC from the UCM Server on Fusion applications. 
 
-## More Use cases
+## More Use cases & Administration
 
 [How to connect to RESTful Services with ODI - tutorial](https://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/odi/odi_12c/odi_12.2.1.1/Integrating_RESTful_Services/ODI_12_2_1_REST.html#section1) 
 
 [10 hours of tutorials for various ODI uses from Oracle](https://apexapps.oracle.com/pls/apex/f?p=44785:24:9182033694040::::P24_CONTENT_ID,P24_PREV_PAGE:7952,24)
+
+[Configure High Availability for ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/configuring-high-availability-odi-oracle-cloud-marketplace.html#GUID-82B2A979-F41E-45A9-9EE7-A6C94C587B16)
 
 ### Connecting to SQL Server
 
