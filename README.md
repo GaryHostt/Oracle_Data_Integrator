@@ -8,6 +8,8 @@ Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusio
 
 ## Getting started
 
+You will need ssh & API keys to connect to your compute node and object storage. You can get both of those easily from [here](https://www.oci-workshop.com/keys/). Remember to run chmod 400 on your ssh key.
+
 You can find ODI on the OCI marketplace at this [link](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/59419903) or you can start local development by spinning up [ODI Studio on VirtualBox](https://www.oracle.com/downloads/developer-vm/community-downloads.html#odi). If you are using the marketplace image, you will need [VNCViewer](https://www.realvnc.com/en/connect/download/viewer/windows/) or [TigerVNC](https://tigervnc.org/) in order to see the Linux GUI.
 
 [How to install ODI from the marketplace](https://www.ateam-oracle.com/deploying-oracle-data-integrator-marketplace-in-a-public-subnet-with-autonomous-database) - blog with more pictures
