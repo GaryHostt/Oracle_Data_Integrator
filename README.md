@@ -60,6 +60,18 @@ In general, for users seeking to extract high volumes (or incremental) of data f
 
 [Configure High Availability for ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/configuring-high-availability-odi-oracle-cloud-marketplace.html#GUID-82B2A979-F41E-45A9-9EE7-A6C94C587B16)
 
+### Cost control
+
+You can limit the cost of your ODI setup by starting and stopping the compute node it run on (you could also do the Autonomous Database repository). In order to start and stop, you have some options.
+
+- REST API
+
+  This [repository](https://garyhostt.github.io/OIC_start-stop/) shows how to start & stop a different OCI resource via the API. You will need the request signature code. To get started with the compute API, visit this [link](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/20160918/). For specific information on starting and stopping, visit [here](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/20160918/Instance/InstanceAction)
+  
+- CLI
+
+The CLI command to start and stop your instance can be found [here](https://docs.cloud.oracle.com/en-us/iaas/tools/oci-cli/2.10.12/oci_cli_docs/cmdref/compute/instance/action.html). You could also have your code invoke a bash/CLI scipt like [here](https://github.com/GaryHostt/OCI_Native_NewsApp) on [lines 155 and 204](https://github.com/GaryHostt/OCI_Native_NewsApp/blob/master/app.py). 
+
 ### Connecting to SQL Server
 
 To connect to SQL Server, it needs the JDBC driver & JRE installed on the SQL Server.
