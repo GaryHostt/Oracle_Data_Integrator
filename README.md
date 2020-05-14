@@ -62,7 +62,7 @@ In general, for users seeking to extract high volumes (or incremental) of data f
 
 ### Cost control
 
-You can limit the cost of your ODI setup by starting and stopping the compute node it run on (you could also do the Autonomous Database repository). In order to start and stop, you have some options.
+You can limit the cost of your ODI setup by starting and stopping the compute node on which it runs (you could also do the [same with the Autonomous Database](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/database/20160918/AutonomousDatabase/StopAutonomousDatabase) if using it as a repository). In order to start and stop, you have some options.
 
 - REST API
 
