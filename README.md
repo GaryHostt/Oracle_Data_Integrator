@@ -140,6 +140,8 @@ For moving smaller quantities of data or enabling app-to-app integration, consid
 
 Click [here](https://github.com/GaryHostt/OCI_DevOps) to start developing cloud-native applications on OCI.
 
+[See how you can load a CSV to ADB with DBMS_CLOUD](https://blogs.oracle.com/datawarehousing/loading-your-object-store-data-into-autonomous-database/comment-submitted?cid=78118ee2-afb5-49d8-bc03-df64deb44ca7)
+
 ### ODI Misc
 
 [File mapping project - youtube](https://www.youtube.com/watch?v=B7hyh3QPsLs)
