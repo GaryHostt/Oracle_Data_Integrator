@@ -60,13 +60,19 @@ In general, for users seeking to extract high volumes (or incremental) of data f
 
 [Configure High Availability for ODI](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/odi-marketplace/configuring-high-availability-odi-oracle-cloud-marketplace.html#GUID-82B2A979-F41E-45A9-9EE7-A6C94C587B16)
 
-### Cost control
+### Cost control - included with start_stop.py python script
 
 You can limit the cost of your ODI setup by starting and stopping the compute node on which it runs (you could also do the [same with the Autonomous Database](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/database/20160918/AutonomousDatabase/StopAutonomousDatabase) if using it as a repository). In order to start and stop, you have some options.
 
-- REST API
+- Explanation of code
 
-  This [repository](https://garyhostt.github.io/OIC_start-stop/) shows how to start & stop a different OCI resource via the API. You will need the request signature code. To get started with the compute API, visit this [link](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/20160918/). For specific information on starting and stopping, visit [here](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/20160918/Instance/InstanceAction)
+You will need to update line 12 with the location of your private API key. Update lines 17, 19, 21 with the relevant credentials. 
+
+This code is made for the ashburn region, you will need to update lines 115, 129, 144, 159, and 174 with the new endpoint, or add a way to pass that as an inpute. Leave the code between lines 32 and 107 alone, it handles authentication with the OCI API. 
+  
+To get started with the compute API, visit this [link](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/20160918/). For specific information on starting and stopping, visit [here](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/20160918/Instance/InstanceAction)
+
+This [repository](https://garyhostt.github.io/OIC_start-stop/) shows how to start & stop a different OCI resource via the API. 
   
 - CLI
 
