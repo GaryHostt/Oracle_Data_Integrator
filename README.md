@@ -2,6 +2,8 @@
   <img src="https://github.com/GaryHostt/Oracle_Data_Integrator/blob/master/pic2.jpg?raw=true" alt="ODI"/>
 </p>
 
+by [Alex MacDonald(intro.alexmacdonald.solutions)
+
 This guide will show you the resources to learn the basics of using ODI, how to extract data from Oracle SaaS to Autonomous Database, and other information. 
 
 Here is the main [ODI documentation](https://docs.oracle.com/en/middleware/fusion-middleware/data-integrator/12.2.1.4/index.html). Everything is always in the documentation. Coming from 11g? See what's new in [ODI 12c](http://www.oracle.com/us/products/middleware/data-integration/odi-12c-new-features-wp-122140-5762948.pdf). Click [here](https://www.oracle.com/middleware/technologies/data-integrator.html) to see ODI's product page on Oracle.com for webcasts, data sheets, and more.
