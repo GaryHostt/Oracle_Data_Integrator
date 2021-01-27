@@ -2,7 +2,7 @@
   <img src="https://github.com/GaryHostt/Oracle_Data_Integrator/blob/master/pic2.jpg?raw=true" alt="ODI"/>
 </p>
 
-by [Alex MacDonald(intro.alexmacdonald.solutions)
+- by [Alex MacDonald](intro.alexmacdonald.solutions)
 
 This guide will show you the resources to learn the basics of using ODI, how to extract data from Oracle SaaS to Autonomous Database, and other information. 
 
